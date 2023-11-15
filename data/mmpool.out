@@ -1,0 +1,515 @@
+[DEBUG] Query: 0, Operator: 1
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=4096 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+LARGE BLOCK COUNT: 0
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 1, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=3584 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+LARGE BLOCK COUNT: 0
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 2, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=3584 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+LARGE BLOCK COUNT: 1
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 3, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=3520 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+LARGE BLOCK COUNT: 1
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 4, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=3520 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+LARGE BLOCK COUNT: 2
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 5, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=3392 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+LARGE BLOCK COUNT: 2
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 6, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=3328 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+LARGE BLOCK COUNT: 2
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 7, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=3324 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+LARGE BLOCK COUNT: 2
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 8, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=2300 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+LARGE BLOCK COUNT: 2
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 9, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=1276 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+LARGE BLOCK COUNT: 2
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 10, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=764 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+LARGE BLOCK COUNT: 2
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 11, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=732 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+LARGE BLOCK COUNT: 2
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 12, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=732 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+	-> Large block #3, address=0x7fffd619f360
+LARGE BLOCK COUNT: 3
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 13, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=220 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+	-> Large block #3, address=0x7fffd619f360
+LARGE BLOCK COUNT: 3
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 14, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=92 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+	-> Large block #3, address=0x7fffd619f360
+LARGE BLOCK COUNT: 3
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 15, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=28 (bytes), failed=0
+SUB POOL COUNT: 1
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+	-> Large block #3, address=0x7fffd619f360
+LARGE BLOCK COUNT: 3
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 16, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=28 (bytes), failed=1
+	-> Sub pool #2, address=0x7fffd61a7390, free_space=4032 (bytes), failed=0
+SUB POOL COUNT: 2
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+	-> Large block #3, address=0x7fffd619f360
+LARGE BLOCK COUNT: 3
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 17, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=28 (bytes), failed=2
+	-> Sub pool #2, address=0x7fffd61a7390, free_space=3776 (bytes), failed=0
+SUB POOL COUNT: 2
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+	-> Large block #3, address=0x7fffd619f360
+LARGE BLOCK COUNT: 3
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 18, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=28 (bytes), failed=3
+	-> Sub pool #2, address=0x7fffd61a7390, free_space=3520 (bytes), failed=0
+SUB POOL COUNT: 2
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+	-> Large block #3, address=0x7fffd619f360
+LARGE BLOCK COUNT: 3
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 19, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=24 (bytes), failed=3
+	-> Sub pool #2, address=0x7fffd61a7390, free_space=3520 (bytes), failed=0
+SUB POOL COUNT: 2
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+	-> Large block #3, address=0x7fffd619f360
+LARGE BLOCK COUNT: 3
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 20, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=24 (bytes), failed=4
+	-> Sub pool #2, address=0x7fffd61a7390, free_space=3456 (bytes), failed=0
+SUB POOL COUNT: 2
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+	-> Large block #3, address=0x7fffd619f360
+LARGE BLOCK COUNT: 3
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 21, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61a7390
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=24 (bytes), failed=5
+	-> Sub pool #2, address=0x7fffd61a7390, free_space=3392 (bytes), failed=0
+SUB POOL COUNT: 2
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+	-> Large block #3, address=0x7fffd619f360
+LARGE BLOCK COUNT: 3
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 22, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61a7390
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=24 (bytes), failed=5
+	-> Sub pool #2, address=0x7fffd61a7390, free_space=3328 (bytes), failed=0
+SUB POOL COUNT: 2
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+	-> Large block #3, address=0x7fffd619f360
+LARGE BLOCK COUNT: 3
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 23, Operator: 3
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61a7390
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=24 (bytes), failed=5
+	-> Sub pool #2, address=0x7fffd61a7390, free_space=3328 (bytes), failed=0
+SUB POOL COUNT: 2
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6187300
+	-> Large block #2, address=0x7fffd6197330
+LARGE BLOCK COUNT: 2
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 24, Operator: 4
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=4096 (bytes), failed=0
+	-> Sub pool #2, address=0x7fffd61a7390, free_space=4096 (bytes), failed=0
+SUB POOL COUNT: 2
+
+LARGE BLOCK DETAILS: 
+LARGE BLOCK COUNT: 0
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 25, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=3584 (bytes), failed=0
+	-> Sub pool #2, address=0x7fffd61a7390, free_space=4096 (bytes), failed=0
+SUB POOL COUNT: 2
+
+LARGE BLOCK DETAILS: 
+LARGE BLOCK COUNT: 0
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 26, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=3584 (bytes), failed=1
+	-> Sub pool #2, address=0x7fffd61a7390, free_space=0 (bytes), failed=0
+SUB POOL COUNT: 2
+
+LARGE BLOCK DETAILS: 
+LARGE BLOCK COUNT: 0
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 27, Operator: 2
+===MEMORY POOL DETAILS===
+POOL ADDRESS: 0x7fffd61862c0
+POOL SIZE (FOR EACH): 4096
+MAX ALLOCATION SIZE: 4096
+MAX FAILED TIMES: 4
+CURRENT ACTIVE POOL ADDRESS: 0x7fffd61862c0
+
+SUB POOL DETAILS:
+	-> Sub pool #1, address=0x7fffd61862c0, free_space=3584 (bytes), failed=1
+	-> Sub pool #2, address=0x7fffd61a7390, free_space=0 (bytes), failed=0
+SUB POOL COUNT: 2
+
+LARGE BLOCK DETAILS: 
+	-> Large block #1, address=0x7fffd6197330
+LARGE BLOCK COUNT: 1
+===MEMORY POOL DETAILS END===
+
+[DEBUG] Query: 28, Operator: 5
