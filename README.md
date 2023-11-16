@@ -4,7 +4,7 @@ If you have any questions about this document (e.g. ambiguous details), welcome 
 
 **You ought to use `C` to implement.**
 
-## 1 Introductions
+## 1 Introduction
 
 **Memory pools** is the use of pools for memory management that allows dynamic memory allocation. Dynamic memory allocation can, and has been achieved through the use of techniques such as `malloc` and C++'s operator `new`; although established and reliable implementations, these suffer from *fragmentation* because of variable block sizes, and low efficiency due to allocating memory through system frequently.
  It is not recommendable to use them in a real-time system due to **performance**. 
