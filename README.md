@@ -27,7 +27,7 @@ I hope you enjoy it!
 
 Assume that you are a new computer engineer at *Millennium Science School*.
 
-<img title="" src="./assets/millennium.png" alt="" width="369" data-align="center">
+<img title="" src="./assets/millennium.png" alt="" width="369">
 
 In this school, students are free to select courses that they are interested in. However, with the increasing of students, they found that the web-based course selecting **system sometimes lags when lots of students select courses simultaneously.**
 
@@ -123,13 +123,13 @@ Let's first look at `mmpool`. The memory layout of `mmpool` contains two parts: 
 
 ![](./assets/mmpool_layout.png)
 
-#### `*last` and `*end`
+##### `*last` and `*end`
 
 `mmpool_data` contains two pointers `*last` and `*end`, **they point to the start address of free memory and the end address of the data memory, respectively**. Hence, once we allocate memory from the memory pool, the `*last` pointer should move afterward at that size.
 
 > Hint: `(size_t) (end - last)` equals the free memory in data memory (in bytes).
 
-#### `*next`
+##### `*next`
 
 Data memory has a fixed size, and it cannot be expanded like `vector` in C++. So, **when the free memory in the data memory is run off, we should create a new "sub" memory pool**. To only use one memory pool for memory allocation, we use `*next` to point to the new memory pool and maintain a chain of memory pools. Notice that the latest allocated `mmpool` entry on the chain is **the last one**.
 
@@ -137,17 +137,17 @@ Later, if we want to allocate a block of memory, **we will visit every memory po
 
 ![](./assets/next_pointer.png)
 
-#### `failed`
+##### `failed`
 
 This variable is used to record how many times memory allocation is failed i.e. the free memory is not enough. 
 
 What's the meaning? Recall that we should have visited every memory pool, but it's time-consuming. Therefore, by recording `failed`, we can just skip the pools that have less or even no free space. This can be done by another pointer, `*current`.
 
-#### `*current`
+##### `*current`
 
 `current` will point to the nearest pool s.t. `failed <= MMPOOL_MAX_FAILED`. It means that when we are visiting the memory pool on the chain, if `failed > MMPOOL_MAX_FAILED`, then let `current = pool->data.next`.
 
-#### `*large`
+##### `*large`
 
 This pointer points to the first large memory block (allocation size > `MMPOOL_MAX_ALLOC`) of the memory pool.
 
