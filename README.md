@@ -1,6 +1,8 @@
-# Memory Pool
+# CS205 Assignment 3 - Memory Pool
 
-If you have any questions about this document (e.g. ambiguous details), welcome to contact me on QQ, or raise an issue on this repository.
+**Designer**: IceLocke
+
+If you have any questions about this document (e.g. ambiguous details), welcome to contact me on QQ (Search my nickname "Ice" in the course group), or raise an issue on GitHub [repository](https://github.com/IceLocke/CS205-2023Fall-Assignment3-Memory-Pool).
 
 **You ought to use `C` to implement.**
 
@@ -21,7 +23,7 @@ I hope you enjoy it!
 
 ## 2 Background
 
-**It's not necessary to read this part [except] *Features of the Web Server*, but the information of the scenario will help you better understand the *Design* part**.
+**It's not necessary to read this part, but the information of the scenario will help you better understand the *Design* part**.
 
 Assume that you are a new computer engineer at *Millennium Science School*.
 
@@ -41,7 +43,9 @@ As an excellent engineer, you found that this problem is caused by the poor memo
 > 
 > 3. **Frequent Use of Small Memory Block**
 
-Regarding all the above, you proceed with the design of the memory pool.
+Regarding all the above, you proceed with the implementation of the memory pool.
+
+![](./assets/mika.jpg)
 
 ## 3 Design of the Memory Pool
 
@@ -231,11 +235,11 @@ Up to now, maybe you have the concept of how this memory pool works. Let's summa
 
  ![](./assets/flowchart.png)
 
-1. When the program calls `mmpool_alloc(pool, size)`, we firstly check whether it's a large memory block (`size > MMPOOL_MAX_ALLOC`)
+1. When the program calls `mmpool_alloc(pool, size)`, we firstly check whether it's a large memory block
    
-   1. If so, Allocate a large memory block by `mmpool_alloc_large(size)`, then connect the large memory block to the large memory block chain.
+   - If so, Allocate a large memory block by `mmpool_alloc_large(size)`, then connect the large memory block to the large memory block chain.
    
-   2. If not, visit the memory pools from `*current`, one by one.
+   - If not, visit the memory pools from `*current`, one by one.
 
 2. If one memory pool has enough free space, then allocate the memory from that pool, meanwhile maintaining the `*last` pointer.
 
@@ -245,7 +249,7 @@ Up to now, maybe you have the concept of how this memory pool works. Let's summa
 
 ## 4 Task
 
-For this assignment, your task is to design 3 structures to implement a memory pool that compiles the features of the application:
+For this assignment, your task is to design 3 structures and implement several functions to develop a memory pool that compiles the features of the application:
 
 - `struct mmpool`: the class stands for a memory pool
 
@@ -253,15 +257,15 @@ For this assignment, your task is to design 3 structures to implement a memory p
 
 - `struct mmpool_large`: the structure to maintain the information of a large memory block
 
-You only need to implement the functions in the code template. Please don't modify any other code patterns, and any other modification will lead to a **0** score.
+You **only need to implement the functions** in the code template. Please don't modify any other code patterns, and any other modification will lead to a **0** score.
 
-Notice that in real systems we usually use memory alignment to achieve better performance, but it will make it more difficult to implement.
+Notice that in real systems we usually use **memory alignment** to achieve better performance, but it will make it more difficult to implement. Therefore, for this assignment, we ignore the implementation of aligned memory allocation.
 
 ## 5 Code Template
 
-**To shorten the document length, this template contains no comments. For detailed comments, please refer to the source code on Blackboard. Make sure that you have read the *Design of the Memory Pool* part and the comments before implementing!**
+To shorten the document length, this template contains no comments. For detailed comments, please refer to the source code on Blackboard or GitHub. **Make sure that you have read the *Design of the Memory Pool* part and the comments before implementing.** If you don't know the meaning of a constant like `MMPOOL_MAX_FAILED`, you can search the macro in this document.
 
-If you don't know the meaning of a constant like `MMPOOL_MAX_FAILED`, you can search the macro in this document.
+You are encouraged to clone the repository (https://github.com/IceLocke/CS205-2023Fall-Assignment3-Memory-Pool) from GitHub and use cmake to develop.
 
 ```c
 #include <stdio.h>
@@ -408,7 +412,7 @@ int main() {
 
 We provide a `main()` function for you. You don't need to worry about this.
 
-**We promise that in each sub-test case, `mmpool_create` and `mmpool_destroy` will be called in pairs, i.e. the test case won't cause a memory leak on purpose.**
+**We promise that in each test case, `mmpool_create` and `mmpool_destroy` will be called in pairs, i.e. the test case won't cause a memory leak on purpose.**
 
 ### Sample Input & Output
 
