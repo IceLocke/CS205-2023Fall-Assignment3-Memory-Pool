@@ -53,7 +53,9 @@ Regarding the features of the application, this is a practical strategy for the
 
 ### 3.1 Allocate Memory
 
-Since the web server will use a small memory block frequently, we may need to consider memory allocation in 2 cases. Consider such a strategy when the program tries to allocate a block of memory: If the `size` of the memory block is larger than the size of the maximum preallocated free space `MMPOOL_MAX_ALLOC` of a memory pool, then we directly allocate a large memory block through `malloc`. Otherwise, we allocate memory manually from the preallocated memory from the memory pool.
+Since the web server will use a small memory block frequently, we may need to consider memory allocation in 2 cases. 
+
+Consider such a strategy when the program tries to allocate a block of memory: If the `size` of the memory block is larger than the size of the maximum preallocated free space `MMPOOL_MAX_ALLOC` of a memory pool, then we directly allocate a large memory block through `malloc`. Otherwise, we allocate memory manually from the preallocated memory from the memory pool.
 
 > **This is important, so we provide a Chinese version.**
 > 
@@ -127,11 +129,11 @@ Let's first look at `mmpool`. The memory layout of `mmpool` contains two parts: 
 
 `mmpool_data` contains two pointers `*last` and `*end`, **they point to the start address of free memory and the end address of the data memory, respectively**. Hence, once we allocate memory from the memory pool, the `*last` pointer should move afterward at that size.
 
-> Hint: `(size_t) (end - last)` equals the free memory in data memory (in bytes).
-
 ##### `*next`
 
-Data memory has a fixed size, and it cannot be expanded like `vector` in C++. So, **when the free memory in the data memory is run off, we should create a new "sub" memory pool**. To only use one memory pool for memory allocation, we use `*next` to point to the new memory pool and maintain a chain of memory pools. Notice that the latest allocated `mmpool` entry on the chain is **the last one**.
+Data memory has a fixed size, and it cannot be expanded like `vector` in C++. So, **when the free memory in the data memory is run off, we should create a new "sub" memory pool**. 
+
+To only use one memory pool for memory allocation, we use `*next` to point to the new memory pool and maintain a chain of memory pools. Notice that the latest allocated `mmpool` entry on the chain is **the last one**.
 
 Later, if we want to allocate a block of memory, **we will visit every memory pool in the chain by `*next`, and find the pool with enough free space**. If there doesn't exist one, create a new memory pool.
 
@@ -161,6 +163,16 @@ struct mmpool_large {
 Like `*next` of `mmpool`, `mmpool_large` will also form a chain. Notice that the latest allocated `mmpool_large` entry is **the last one** on the chain.
 
 ![](./assets/large_pointer.png)
+
+> **You may have a question:** Why should we isolate `mmpool_data` from `*current` and `*large` in `mmpool`?
+> 
+> In fact, for `mmpool` entries those are created when all the previous `mmpool` entries don't have enough space, we should have moved `*last` backward `2*sizeof(void*)` bytes to save the memory that `*large` and `*current` accounts (even if they only take 16 bytes in 64-bit machine), since `*current` and `*large` are **totally useless** for these newly created `mmpool` entries.
+>
+> Therefore, isolation makes the structure more logical and ingenious.
+>
+> **But to SIMPLIFY this assignment, we WOULD NOT do this. :)**
+>
+> If you want to test this optimization, please contact me. I will upload a new problem (it doesn't accounts for the score of the whole assignment) on OJ, once anybody asks for it.
 
 #### 3.3.3 Functions to Implement
 
