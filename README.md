@@ -27,11 +27,18 @@ I hope you enjoy it!
 
 Assume that you are a new computer engineer at *Millennium Science School*.
 
-<img title="" src="./assets/millennium.png" alt="" width="369">
+> **Millennium Science School**
+>  
+> A huge school specializing in science and technology! 
+>
+> Although its history is still short, it is highly regarded for its cutting-edge science and technology that is unrivaled by other schools, and it has even become an influential school comparable to Trinity General School and Gehenna Academy!
+>
+> <img title="Millenium" src="./assets/millennium.png">
+> 
 
 In this school, students are free to select courses that they are interested in. However, with the increasing of students, they found that the web-based course selecting **system sometimes lags when lots of students select courses simultaneously.**
 
-As an excellent engineer, you found that this problem is caused by the poor memory management of the web server: there exist problems of frequent **memory leaking, memory fragments**, etc. Now it's your turn to design a memory pool for the specific scenario!
+This problem was reported by Yuuka. As an excellent engineer, you found that it is caused by the poor memory management of the web server: there exist problems of frequent **memory leaking, memory fragments**, etc. Now it's your turn to design a memory pool for the specific scenario!
 
 > **Features of the Web Server**
 > 
@@ -41,9 +48,9 @@ As an excellent engineer, you found that this problem is caused by the poor memo
 > 
 > 2. **Short Life Cycle of Connections**: The server usually deals with short-term HTTP connections. This means that you don't need to maintain the memory order for a long time, since the memory pool will be destroyed after a connection is ended.
 > 
-> 3. **Frequent Use of Small Memory Block**
+> 3. **Frequent Use of Small Memory Blocks**
 
-Regarding all the above, you proceed with the implementation of the memory pool.
+Regarding all the above, you proceed with the implementation of the memory pool with the help of your predecessor, Himari.
 
 ![](./assets/mika.jpg)
 
