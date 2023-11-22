@@ -173,7 +173,7 @@ Like `*next` of `mmpool`, `mmpool_large` will also form a chain. Notice that the
 
 > **You may have a question:** Why should we isolate `mmpool_data` from `*current` and `*large` in `mmpool`?
 > 
-> In fact, for `mmpool` entries those are created when all the previous `mmpool` entries don't have enough space, we should have moved `*last` backward `2*sizeof(void*)` bytes to save the memory that `*large` and `*current` accounts (even if they only take 16 bytes in 64-bit machine), since `*current` and `*large` are **totally useless** for these newly created `mmpool` entries.
+> In fact, for those `mmpool` entries that are created when all the previous `mmpool` entries don't have enough space, we should have moved `*last` backward `2*sizeof(void*)` bytes to save the memory that `*large` and `*current` accounts (even if they only take 16 bytes in 64-bit machine), since `*current` and `*large` are **totally useless** for these newly created `mmpool` entries.
 >
 > Therefore, isolation makes the structure more logical and ingenious.
 >
