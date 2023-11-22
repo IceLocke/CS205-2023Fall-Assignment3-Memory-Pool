@@ -213,7 +213,7 @@ void* mmpool_alloc(mmpool_t *pool, size_t size);
  * 
  * @param size size of the memory block (in bytes).
  * 
- * @return mmpool_large_t* pointer of the start address of the memory block.
+ * @return mmpool_large_t* pointer of the new `mmpool_large` entry.
  */
 mmpool_large_t* mmpool_alloc_large(size_t size);
 ```
