@@ -50,7 +50,7 @@ This problem was reported by Yuuka. As an excellent engineer, you found that it 
 > 
 > 3. **Frequent Use of Small Memory Blocks**
 
-Regarding all the above, you proceed with the implementation of the memory pool with the help of your.
+Regarding all the above, you proceed with the implementation of the memory pool with the help of Himari.
 
 ![](./assets/mika.jpg)
 
