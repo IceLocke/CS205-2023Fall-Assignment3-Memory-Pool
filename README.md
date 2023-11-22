@@ -50,7 +50,7 @@ This problem was reported by Yuuka. As an excellent engineer, you found that it 
 > 
 > 3. **Frequent Use of Small Memory Blocks**
 
-Regarding all the above, you proceed with the implementation of the memory pool with the help of your predecessor, Himari.
+Regarding all the above, you proceed with the implementation of the memory pool with the help of your.
 
 ![](./assets/mika.jpg)
 
@@ -444,8 +444,10 @@ There is a couple of sample input and output files of the given `main()` functio
 
 ## 7 Judgement
 
-On the online judge, the `main()` function is different from the template we gave.
+On the online judge, the `main()` function is quite different from the template we gave. We will put your implementation in some computational tasks and check all but not limit to the following aspects:
 
 - Maintenance of the memory pool structure
+
+- Correctness of memory order (check by the correctness of computation)
 
 - Memory management (memory leak, etc.)
