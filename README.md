@@ -138,7 +138,7 @@ Let's first look at `mmpool`. The memory layout of `mmpool` contains two parts: 
 
 ##### `*next`
 
-Data memory has a fixed size, and it cannot be expanded like `vector` in C++. So, **when the free memory in the data memory is run off, we should create a new "sub" memory pool**. 
+Data memory has a fixed size, and it cannot be expanded like `vector` in C++. So, **when the free memory in the data memory is run out, we should create a new "sub" memory pool**. 
 
 To only use one memory pool for memory allocation, we use `*next` to point to the new memory pool and maintain a chain of memory pools. Notice that the latest allocated `mmpool` entry on the chain is **the last one**.
 
