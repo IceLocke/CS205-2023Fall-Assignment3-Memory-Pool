@@ -2,7 +2,7 @@
 
 **Designer**: IceLocke
 
-If you have any questions about this document (e.g. ambiguous details), welcome to contact me on QQ (Search my nickname "Ice" in the course group), or raise an issue on GitHub [repository](https://github.com/IceLocke/CS205-2023Fall-Assignment3-Memory-Pool).
+This assignment is a simplified design based on NGINX's memory pool. If you are interested in the original design, please refer to the [original repository](https://github.com/nginx/nginx/blob/master/src/core/ngx_palloc.c).
 
 **You ought to use `C` to implement.**
 
